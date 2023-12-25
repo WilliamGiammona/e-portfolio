@@ -52,3 +52,10 @@ nav {
   color: #242424;
   font-weight: 700;
 }
+
+.nav__link--anchor--primary {
+  background: #6030b1;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+}
