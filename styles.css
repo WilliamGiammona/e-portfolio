@@ -75,3 +75,11 @@ nav {
 .text--purple {
   color: #6030b1;
 }
+
+/* 
+    ABOUT ME
+*/
+
+#about-me {
+  min-height: calc(100vh - 100px);
+}
