@@ -94,6 +94,10 @@ nav {
   font-weight: 700;
 }
 
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
 /* 
     ABOUT ME
 */
