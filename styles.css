@@ -187,7 +187,9 @@ section:nth-child(even) {
 */
 
 .language-list {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .language {
@@ -198,9 +200,17 @@ section:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 25px 16px;
 }
 
 .language__img {
   width: 100%;
   max-width: 100px;
+  transition: all 300ms ease;
+}
+
+.language__img:hover {
+  transform: scale(0.9);
+  opacity: 0.86;
+  filter: brightness(0.8);
 }
