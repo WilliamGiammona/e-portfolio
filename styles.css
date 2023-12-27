@@ -98,8 +98,18 @@ nav {
     ABOUT ME
 */
 
-#about-me {
-  min-height: calc(100vh - 100px);
+.about-me {
+  height: 100vh;
+}
+
+.about-me__container {
+  height: calc(100vh - 100px);
+}
+
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 100px);
 }
 
 .about-me__info-container {
@@ -143,4 +153,17 @@ nav {
   color: #242424;
   text-decoration: none;
   padding: 0 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }

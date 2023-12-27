@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <section id="#about-me">
+    <section id="#about-me" class="about-me">
       <nav>
         <div class="personal__logo">William Giammona</div>
         <ul class="nav__link--list">
@@ -36,7 +36,7 @@
           </li>
         </ul>
       </nav>
-      <div class="flex flex-1">
+      <div class="about-me__container flex flex-1">
         <div class="about-me__info row">
           <div class="about-me__info-container">
             <figure class="about-me__picture--mask">
@@ -72,9 +72,13 @@
               </a>
             </div>
           </div>
-          <!-- <figure class="about-me__img-container">
-            <img src="./assets/undraw_websites.svg" alt="undraw picture" />
-          </figure> -->
+          <figure class="about-me__img-container">
+            <img
+              src="./assets/undraw_websites.svg"
+              alt="undraw picture"
+              class="about-me__img"
+            />
+          </figure>
         </div>
       </div>
     </section>
