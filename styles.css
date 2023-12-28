@@ -337,6 +337,10 @@ footer {
 
 .footer__social--list {
   margin-bottom: 28px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer__row {
