@@ -320,3 +320,9 @@ section:nth-child(even) {
   text-align: left;
   color: #fff;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #242424;
+}
