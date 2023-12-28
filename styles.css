@@ -335,6 +335,10 @@ footer {
   margin-bottom: 20px;
 }
 
+.footer__social--list {
+  margin-bottom: 28px;
+}
+
 .footer__row {
   padding: 8% 0;
   display: flex;
