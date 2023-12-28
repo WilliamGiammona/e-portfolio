@@ -252,7 +252,7 @@ section:nth-child(even) {
   background-color: #1c1d25;
   opacity: 0;
   transition: opacity 450ms ease;
-  z-index: 2;
+  z-index: 1;
 }
 
 .project:hover .project__wrapper::before {
@@ -271,4 +271,38 @@ section:nth-child(even) {
 
 .project__list {
   padding-top: 40px;
+}
+
+.project:hover .project__description {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.project__description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(100%);
+  max-width: 550px;
+  z-index: 3;
+  opacity: 0;
+  transition: transform 450ms, opacity 300ms;
+}
+
+.project__description--title,
+.project__description--subtitle,
+.project__description--para,
+.project__description--links {
+  text-align: left;
+  color: white;
+}
+
+.project__description--para {
+  margin: 16px 0;
+}
+
+.project__description--link {
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
 }
